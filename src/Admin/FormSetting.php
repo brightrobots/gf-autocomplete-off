@@ -13,7 +13,7 @@ class FormSetting {
                     id="gform_turn_off_autocomplete"
                     name="br-sc-autocomplete"
                     value="off"
-                    ' . checked( rgar( $form, 'br-sc-autocomplete' ), 'off' ) . ' 
+                    ' . checked( rgar( $form, 'br-sc-autocomplete' ), 'off', false ) . ' 
                  />
                 <label for="gform_turn_off_autocomplete">
                     ' . esc_html__( 'Disable browser auto complete', 'br-sc-gf-aco' ) . '
