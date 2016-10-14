@@ -33,9 +33,9 @@ class Hooks {
 		add_action( 'gform_pre_form_settings_save', array( $formSetting, 'save' ) );
 
 		$formField = new FormField();
+		add_filter( 'gform_field_content', array( $formField, 'addAutoCompleteSetting' ), 11, 2 );
 
 		$formTag = new FormTag();
 		add_action( 'gform_form_tag', array( $formTag, 'addAutoCompleteSetting' ), 11, 2 );
-
 	}
 }
