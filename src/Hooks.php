@@ -4,6 +4,8 @@ namespace BrightRobots\GravityForms\AutoCompleteOff;
 
 use BrightRobots\GravityForms\AutoCompleteOff\Admin\FieldSetting;
 use BrightRobots\GravityForms\AutoCompleteOff\Admin\FormSetting;
+use BrightRobots\GravityForms\AutoCompleteOff\Render\FormField;
+use BrightRobots\GravityForms\AutoCompleteOff\Render\FormTag;
 
 class Hooks {
 	public static function init() {
@@ -29,5 +31,11 @@ class Hooks {
 		$formSetting = new FormSetting();
 		add_action( 'gform_form_settings', array( $formSetting, 'markup' ), 10, 2 );
 		add_action( 'gform_pre_form_settings_save', array( $formSetting, 'save' ) );
+
+		$formField = new FormField();
+
+		$formTag = new FormTag();
+		add_action( 'gform_form_tag', array( $formTag, 'addAutoCompleteSetting' ), 11, 2 );
+
 	}
 }

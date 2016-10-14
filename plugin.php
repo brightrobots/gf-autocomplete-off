@@ -41,5 +41,7 @@ defined( 'ABSPATH' ) or exit;
 require_once __DIR__ . '/src/Hooks.php';
 require_once __DIR__ . '/src/Admin/FieldSetting.php';
 require_once __DIR__ . '/src/Admin/FormSetting.php';
+require_once __DIR__ . '/src/Render/FormField.php';
+require_once __DIR__ . '/src/Render/FormTag.php';
 
 Hooks::init();
