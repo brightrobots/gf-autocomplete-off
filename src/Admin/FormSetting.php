@@ -3,7 +3,7 @@ namespace BrightRobots\GravityForms\AutoCompleteOff\Admin;
 
 class FormSetting {
 	public function markup( $settings, $form ) {
-		$settings['Form Options']['br-sc-autocomplete'] = '<tr>
+		$settings['Form Options']['brScAutoComplete'] = '<tr>
             <th>
                 ' . esc_html__( 'Browser auto complete', 'br-sc-gf-aco' ) . '
             </th>
@@ -11,9 +11,9 @@ class FormSetting {
                 <input
                     type="checkbox"
                     id="gform_turn_off_autocomplete"
-                    name="br-sc-autocomplete"
+                    name="brScAutoComplete"
                     value="off"
-                    ' . checked( rgar( $form, 'br-sc-autocomplete' ), 'off', false ) . ' 
+                    ' . checked( rgar( $form, 'brScAutoComplete' ), 'off', false ) . ' 
                  />
                 <label for="gform_turn_off_autocomplete">
                     ' . esc_html__( 'Disable browser auto complete', 'br-sc-gf-aco' ) . '
@@ -25,7 +25,7 @@ class FormSetting {
 	}
 
 	public function save( $form ) {
-		$form['br-sc-autocomplete'] = ( rgpost( 'br-sc-autocomplete' ) === 'off' ) ? 'off' : 'on';
+		$form['brScAutoComplete'] = ( rgpost( 'brScAutoComplete' ) === 'off' ) ? 'off' : 'on';
 
 		return $form;
 	}

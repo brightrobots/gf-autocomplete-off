@@ -23,14 +23,14 @@ class FieldSetting {
 		<script>
 			jQuery('#autocomplete_field_setting').on('change', function () {
 				if (jQuery(this).is(':checked')) {
-					SetFieldProperty('br-sc-autocomplete', 'off')
+					SetFieldProperty('brScAutoComplete', 'off')
 				} else {
-					SetFieldProperty('br-sc-autocomplete', 'on')
+					SetFieldProperty('brScAutoComplete', 'on')
 				}
 			});
 
 			jQuery(document).bind('gform_load_field_settings', function (event, field) {
-				jQuery('#autocomplete_field_setting').prop('checked', (field['br-sc-autocomplete'] === 'off'))
+				jQuery('#autocomplete_field_setting').prop('checked', (field['brScAutoComplete'] === 'off'))
 			});
 		</script>
 		<?php

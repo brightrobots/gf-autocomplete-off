@@ -4,7 +4,7 @@ namespace BrightRobots\GravityForms\AutoCompleteOff\Render;
 
 class FormTag {
 	public function addAutoCompleteSetting( $form_tag, $form ) {
-		if ( !isset( $form['br-sc-autocomplete'] ) || $form['br-sc-autocomplete'] !== 'off' ) {
+		if ( !isset( $form['brScAutoComplete'] ) || $form['brScAutoComplete'] !== 'off' ) {
 			$autoComplete = 'on';
 		}
 		else {
