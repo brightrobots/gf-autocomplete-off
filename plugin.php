@@ -34,4 +34,11 @@
  * If not, see http://www.gnu.org/licenses/gpl-2.0.txt.
  */
 
+use BrightRobots\GravityForms\AutoCompleteOff\Hooks;
+
 defined( 'ABSPATH' ) or exit;
+
+require_once __DIR__ . '/src/Hooks.php';
+require_once __DIR__ . '/src/Admin/FieldSetting.php';
+
+Hooks::init();
