@@ -8,6 +8,19 @@ use BrightRobots\GravityForms\AutoCompleteOff\Admin\FormSetting;
 use BrightRobots\GravityForms\AutoCompleteOff\Render\FormField;
 use BrightRobots\GravityForms\AutoCompleteOff\Render\FormTag;
 
+/**
+ * Class Hooks
+ *
+ * This class is in charge of loading in all the parts
+ * of this plugin and hooking them into the right WordPress
+ * and Gravity Forms hooks and filters.
+ *
+ * As we only want to load these Hooks once, this class is
+ * therefore a singleton class that can only be initialised
+ * once calling `Hooks::init();`
+ *
+ * @package BrightRobots\GravityForms\AutoCompleteOff
+ */
 class Hooks {
 	public static function init() {
 		static $inst = null;
@@ -19,10 +32,8 @@ class Hooks {
 		return $inst;
 	}
 
-
 	private function __clone() {
 	}
-
 
 	private function __construct() {
 		$lang = new LoadPluginLanguage();

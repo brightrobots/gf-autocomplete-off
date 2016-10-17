@@ -1,7 +1,19 @@
 <?php
 namespace BrightRobots\GravityForms\AutoCompleteOff\Admin;
 
+/**
+ * Class FieldSetting
+ *
+ * Adds in the markup and JS to Gravity Forms so that an
+ * extra setting is added to the edit field section in
+ * the Gravity Forms form editor.
+ *
+ * @package BrightRobots\GravityForms\AutoCompleteOff\Admin
+ */
 class FieldSetting {
+	/**
+	 * @param $position int
+	 */
 	public function markup( $position ) {
 		if ( $position !== 25 ) {
 			return;
