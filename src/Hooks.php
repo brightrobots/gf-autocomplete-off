@@ -2,6 +2,7 @@
 
 namespace BrightRobots\GravityForms\AutoCompleteOff;
 
+use BrightRobots\GravityForms\AutoCompleteOff\Lang\LoadPluginLanguage;
 use BrightRobots\GravityForms\AutoCompleteOff\Admin\FieldSetting;
 use BrightRobots\GravityForms\AutoCompleteOff\Admin\FormSetting;
 use BrightRobots\GravityForms\AutoCompleteOff\Render\FormField;
@@ -24,6 +25,9 @@ class Hooks {
 
 
 	private function __construct() {
+		$lang = new LoadPluginLanguage();
+		add_action( 'plugins_loaded', array( $lang, 'load' ) );
+
 		$fieldSetting = new FieldSetting();
 		add_action( 'gform_field_advanced_settings', array( $fieldSetting, 'markup' ) );
 		add_action( 'gform_editor_js', array( $fieldSetting, 'js' ) );

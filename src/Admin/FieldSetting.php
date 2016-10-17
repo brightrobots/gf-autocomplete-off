@@ -1,7 +1,6 @@
 <?php
 namespace BrightRobots\GravityForms\AutoCompleteOff\Admin;
 
-
 class FieldSetting {
 	public function markup( $position ) {
 		if ( $position !== 25 ) {
