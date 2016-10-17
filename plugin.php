@@ -15,7 +15,7 @@
  * Author:      Scott Cariss
  * Author URI:  https://l3rady.com
  * Text Domain: br-sc-gf-aco
- * Domain Path: /languages
+ * Domain Path: /assets/languages
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
