@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms Auto Complete Off\n"
+"Project-Id-Version: Auto Complete Off for Gravity Forms\n"
 "POT-Creation-Date: 2016-10-17 12:23+0100\n"
 "PO-Revision-Date: 2016-10-17 12:22+0100\n"
 "Last-Translator: \n"
@@ -32,7 +32,7 @@ msgid "Disable browser auto complete"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Gravity Forms Auto Complete Off"
+msgid "Auto Complete Off for Gravity Forms"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

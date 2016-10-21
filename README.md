@@ -1,4 +1,4 @@
-# Plugin Name 
+# Auto Complete Off for Gravity Forms
 **Contributors:** l3rady  
 **Tags:** gravityforms, autocomplete, autofill, forms  
 **Requires at least:** 3.0.1  
