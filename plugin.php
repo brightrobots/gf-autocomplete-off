@@ -2,14 +2,14 @@
 /**
  * Gravity Forms Auto Complete Off
  *
- * @package     brightrobots/gravityforms-autocomplete-off
+ * @package     brightrobots/gf-autocomplete-off
  * @author      Scott Cariss
  * @copyright   2016 Scott Cariss
  * @license     GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name: Gravity Forms Auto Complete Off
- * Plugin URI:  https://github.com/brightrobots/gravityforms-autocomplete-off
+ * Plugin URI:  https://github.com/brightrobots/gf-autocomplete-off
  * Description: Adds to Gravity Forms the capability to turn off autocomplete on a given form or form input.
  * Version:     1.0
  * Author:      Scott Cariss

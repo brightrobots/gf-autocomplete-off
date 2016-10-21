@@ -36,7 +36,7 @@ msgid "Gravity Forms Auto Complete Off"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/brightrobots/gravityforms-autocomplete-off"
+msgid "https://github.com/brightrobots/gf-autocomplete-off"
 msgstr ""
 
 #. Description of the plugin/theme

@@ -1,5 +1,5 @@
 {
-  "name": "brightrobots/gravityforms-autocomplete-off",
+  "name": "brightrobots/gf-autocomplete-off",
   "description": "Adds to Gravity Forms the capability to turn off autocomplete on a given form or form input.",
   "type": "wordpress-plugin",
   "keywords": [
@@ -9,7 +9,7 @@
     "forms",
     "wordpress"
   ],
-  "homepage": "https://github.com/brightrobots/gravityforms-autocomplete-off",
+  "homepage": "https://github.com/brightrobots/gf-autocomplete-off",
   "license": "GPL-2.0+",
   "authors": [
     {
@@ -20,7 +20,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/brightrobots/gravityforms-autocomplete-off/issues"
+    "issues": "https://github.com/brightrobots/gf-autocomplete-off/issues"
   },
   "require": {
     "composer/installers": "^1.0"

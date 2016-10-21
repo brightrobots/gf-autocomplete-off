@@ -17,7 +17,7 @@ This plugin was created because of the need to turn auto complete off on passwor
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/gravityforms-autocomplete-off` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/gf-autocomplete-off` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Enable autocomplete off
 	- Go to a Gravity Form -> Form Settings to set autocomplete off for the entire form
