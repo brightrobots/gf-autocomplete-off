@@ -3,7 +3,7 @@
 **Tags:** gravityforms, autocomplete, autofill, forms  
 **Requires at least:** 3.0.1  
 **Tested up to:** 4.6.1  
-**Stable tag:** 1.0  
+**Stable tag:** 1.0.1  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -28,6 +28,8 @@ This plugin was created because of the need to turn auto complete off on passwor
 
 ## Changelog 
 
+### 1.0.1 
+* Changed plugin path to be inline with WordPress.org plugin publishing rules.
 
 ### 1.0 
 * Initial release
